@@ -1,8 +1,6 @@
 #!/bin/bash
 /**
- * main - print string in the put function
- * Description: using the main function
- * this program prints "programming is like building a multiligual puzzle"
+ * main - main block
  * Return 0
  */
 int main(void)
