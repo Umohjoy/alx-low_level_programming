@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-* main - print the string and put function
-* Description: using the main function
+*main-print the string and put function
+*Description: using the main function
 * this program prints "Programming is like building a multilingual puzzle
-* Return 0 if exited properly, non zero otherwise
+*Return: 0 if exited properly, non zero otherwise
 */
+
 int main(void)
 {
 char c;
@@ -18,5 +19,4 @@ printf("Size of a long int: %d byte(s)\n", sizeof(long int));
 printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
 printf("Size of a float: %d byte(s)\n", sizeof(float));
 return (0);
-}	
-	       	
+}
