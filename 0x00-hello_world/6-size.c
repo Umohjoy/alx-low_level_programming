@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - print the string in the put function
-*
-* Description: using the main function
-* this page prints "programing like building a multilingual puzzle
+* main - main block
 * Return 0
 */
 int main(void)
@@ -14,11 +11,11 @@ int main(void)
 	long li;
 	long long lli;
 	float f;
-	printf("Size of a char: %id byte(s)\n", sizeof(c));
-	printf("Size of an int: %id byte(s)\n", sizeof(i));
-	printf("Size of a long int: %id byte(s)\n", sizeof(li));
-	printf("Size of a long long int: %id byte(s)\n", sizeof(lli));
-	printf("Size of a float: %id byte(s)\n", sizeof(f));
+	printf("Size of a char: %id byte(s)\n", sizeof(char));
+	printf("Size of an int: %id byte(s)\n", sizeof(int));
+	printf("Size of a long int: %id byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %id byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %id byte(s)\n", sizeof(float));
 	return (0);
 }	
 	       	
