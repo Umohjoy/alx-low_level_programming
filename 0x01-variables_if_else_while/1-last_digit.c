@@ -1,31 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
- * main - Positive anything is better than negative nothing
+ * main - print the last digit of random number stored in variable n
  * Return: 0
  */
 int main(void)
 {
         int n;
-	int l;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
         /* your code goes there */
 
-        if (1 > 5)
+        if (n 10 > 5)
         {
-                printf("last digit of %d and is greater than 5\n", n 1);
+                printf("and is greater than 5\n");
         }
-        else if (1 == 0)
+        else if (n 10 == 0)
         {
-                printf("last digit of %d and is 0\n", n, 1);
+                printf("and is 0\n");
         }
-        else
-        {
-                printf("last digit of %d is %d and is less than 6 and not 0\n", n, 1);
-        }
+        else (n % 10 < 6 && n % 10 != 0);
+	{
+		printf("and is less than 6 and not 0\n");
+        
         return (0);
 }
 
