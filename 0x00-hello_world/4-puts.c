@@ -1,12 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: using the main function
- * this program prints "Programming is like building a multilingual puzzle
- * Return 0 if success.
+ * main - printing string
+ *
+ * Return: always 0 (Sucessful)
  */
 int main(void)
 {
-         puts("\"programming is like building a multilingual puzzle");
-         return (0);
-}
+     puts("\ "Programming is like building a multilingual puzzle");
+     return (0)
+}	     
