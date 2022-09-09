@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
 * main - print string in the function
 *
-* Description: using the main function
-* this program prints "programming is like building a multiligual puzzle
-* Return 0 
+* Description: print out a sting to stdout.
+* Return: 0 if success.
 */
 int main(void)
 { 
