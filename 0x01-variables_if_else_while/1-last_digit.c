@@ -1,30 +1,31 @@
-#include <stdib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
-*main-print if the number is positive, zero, or negative
-*
-* Description: using the main funtion
-* this program prints "programming is postive, zero, or negative
-* Return: 0
-*/
+ * main - Positive anything is better than negative nothing
+ * Return: 0
+ */
 int main(void)
 {
-int n;
+        int n;
+	int l;
 
-srand(time(0));
-n = rand() -RAND_MAX / 2;
-/* your code goes there */
-if (n > 0)
-{
-printf("%d is postive\n", n);
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+        /* your code goes there */
+
+        if (1 > 5)
+        {
+                printf("last digit of %d and is greater than 5\n", n 1);
+        }
+        else if (1 == 0)
+        {
+                printf("last digit of %d and is 0\n", n, 1);
+        }
+        else
+        {
+                printf("last digit of %d is %d and is less than 6 and not 0\n", n, 1);
+        }
+        return (0);
 }
-else if(n == 0)
-{
-printf("%d is zero\n", n);
-}
-else if (n < 0)
-{
-printf("%d is negative\n", n);
-}
-return (0);
-}
+
