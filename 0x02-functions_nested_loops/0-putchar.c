@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/**
+ * main-program that print _putchar
+ */
 int main(void)
 {
 putchar('_');
