@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
-*print_alphabte-function to print abc
+*print_alphabte_x10 - use only "puchar" twice
 *Return: (0)
 */
-void print_alphabet(void)
+void print_alphabet(void);
 {
 char j;
 
