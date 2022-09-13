@@ -1,0 +1,12 @@
+lphabet.c:8: WARNING: please, no spaces at the start of a line
+1-alphabet.c:10: WARNING: please, no spaces at the start of a line
+1-alphabet.c:10: WARNING: suspect code indent for conditional statements (4, 9)
+1-alphabet.c:10: ERROR: space required before the open parenthesis '('
+1-alphabet.c:11: WARNING: please, no spaces at the start of a line
+1-alphabet.c:12: ERROR: code indent should use tabs where possible
+1-alphabet.c:12: WARNING: please, no spaces at the start of a line
+1-alphabet.c:13: WARNING: please, no spaces at the start of a line
+1-alphabet.c:14: WARNING: please, no spaces at the start of a line
+total: 3 errors, 7 warnings, 15 lines checked
+1-alpha
+
