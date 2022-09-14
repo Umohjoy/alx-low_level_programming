@@ -5,13 +5,17 @@
 */
 void print_alphabet_x10(void)
 {
-char c, i
-for (i = 0 <= 9; i++)
+char c;
+int i;
+i =0;
+while  (i < 10<)
 {
-for (c = 'a'; c <= 'z'; c++)
+while (c = 'a'; c <= 'z'; c++)
 {
 _purchar(c);
+c++;
 }
 _purchar('\n');
+i++;
 }
 }
