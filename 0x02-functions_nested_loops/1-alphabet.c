@@ -1,16 +1,20 @@
 #include "main.h"
 
 /**
-*print_alphabte_x10 - use only "puchar" twice
-*Return: (0)
-*/
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
 void print_alphabet(void)
 {
-char j;
+	char c = 'a';
 
-for (j = 'a'; j <= 'z'; j++)
-{
-_putchar(j);
-}
-_putchar('\n');
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
+
 }
