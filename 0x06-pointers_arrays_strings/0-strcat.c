@@ -1,18 +1,24 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
-* main - check the code
-* print_array - prints n elements of an array of integer
-* followed by a new line
-* @n: number of elements to print
-* Return: Always 0.
-*/
-char *_strcat(char *dest, char *src);
+ * _strcat - concatenates two strings
+ * @dest: string to append to
+ * @src: string to add
+ * Return: a pointer to the resulting string
+ */
+char *_strcat(char *dest, char *src)
 {
-char str1[0] = "src";
-char str2[0] = "dest\0";
-char len
-len = strlen(str1);
-prinft("strlen(str1) : %d\n", len );
-return 0;
+int i, j;
+i = 0;
+j = 0;
+while (dest[i] != '\0')
+i++;
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+j++;
+i++;
+}
+dest[i] = '\0';
+return (dest);
 }
