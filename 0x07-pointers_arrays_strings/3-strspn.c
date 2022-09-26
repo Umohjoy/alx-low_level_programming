@@ -24,7 +24,8 @@ flag = 1;
 }
 if (flag == 0)
 {
-return (f)
+return (f);
+}
 }
 return (0);
 }
