@@ -29,7 +29,7 @@ digit = -digit;
 n = n * 10 + digit;
 f = 1;									 if (s[i + 1] < '0' || s[i + 1] > '9')	
 break;
-if = 0;									 }
+if = (0);								 }
 i++;
 }									 if (f == 0)								  return (0);
 return (n);
