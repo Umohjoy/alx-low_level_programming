@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * append_text_to_file - adds text at EOF
- * @filename: file to append data to
- * @text_content: data to append to file
- *
- * Return: 1 of successfull else -1 on error
- */
+* append_text_to_file - adds text at EOF
+* @filename: file to append data to
+* @text_content: data to append to file
+*
+* Return: 1 of successfull else -1 on error
+*/
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fild = 0, chk = 0, i = 0;
